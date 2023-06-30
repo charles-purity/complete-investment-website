@@ -1,0 +1,66 @@
+.logo-lg img {
+	height:40px;
+	width:100px; 
+	margin-top:15px;
+}
+
+.swiper {
+	font-family: monospace;
+    color: var(--pink);
+}
+
+.user-panel > .image {
+    border: 2px solid #858585;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+	background-color: #262626;
+	padding: 4px;
+}
+
+.user-panel > .image > img {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-body a:not(:hover) {
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+.user-header a {
+	box-shadow: 2px solid var(--light);
+}
+
+.navbar-nav .user-menu .dropdown-menu.scale-up {
+	width: 270px;
+	max-width: calc(100vw - 28px);
+}
+
+.pre-icon {
+    height: 60px;
+}
+
+.pre-icon img {
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .main-sidebar {
+        padding-top: 60px;
+    }
+}
+    
+    
+    

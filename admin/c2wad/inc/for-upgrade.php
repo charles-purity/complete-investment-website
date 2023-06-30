@@ -1,0 +1,75 @@
+<?php
+
+// delete investor
+if(isset($_POST['delete'])){
+	
+	$id = $_POST['id'];
+	
+$sql = "DELETE FROM shared WHERE id='$id'";
+
+if (mysqli_query($link, $sql)) {
+    $msg = " deleted successfully!";
+} else {
+    $msg = "not deleted! ";
+}
+}
+// verify investor
+
+if(isset($_POST['act'])){
+	
+		$id = $_POST['id'];
+	
+$sql = "UPDATE shared SET status = '1'  WHERE id='$id'";
+
+if (mysqli_query($link, $sql)) {
+    $msg = "shares activated successfully!";
+} else {
+    $msg = "shares not activated! ";
+}
+}
+
+
+if(isset($_POST['dact'])){
+	
+		$id = $_POST['id'];
+	
+$sql = "UPDATE shared SET status = '0'  WHERE id='$id'";
+
+if (mysqli_query($link, $sql)) {
+    $msg = "shares deactivated successfully!";
+} else {
+    $msg = "shares not deactivated! ";
+}
+}
+
+
+
+if(isset($_POST['vemail'])){
+	
+	$email = $_POST['email'];
+	
+$sql = "UPDATE users SET confirm = '1'  WHERE email='$email'";
+
+if (mysqli_query($link, $sql)) {
+    $msg = "Investor verified successfully!";
+} else {
+    $msg = "Investor not was not verified! ";
+}
+}
+
+
+
+// unverify investors
+
+if(isset($_POST['unverify'])){
+	
+	$email = $_POST['email'];
+	
+$sql = "UPDATE users SET verify = '0'  WHERE email='$email'";
+
+if (mysqli_query($link, $sql)) {
+    $msg = "Investor Un-verified successfully!";
+} else {
+    $msg = "Investor not was not Un-verified! ";
+}
+}

@@ -1,0 +1,195 @@
+[14-Dec-2022 22:50:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[04-Jan-2023 07:00:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 05:42:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-fund-management.php(49): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/fund-management.php(9): require('/home/wheatonsf...')
+#6 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 05:42:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-fund-management.php(49): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/fund-management.php(9): require('/home/wheatonsf...')
+#6 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 05:42:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-fund-management.php(49): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/fund-management.php(9): require('/home/wheatonsf...')
+#6 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 06:24:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 07:05:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 07:05:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 07:06:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 07:06:17 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 07:06:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 07:06:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 09:34:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 09:34:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 09:35:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 09:35:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 09:35:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631
+[13-Jan-2023 09:35:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php:3631
+Stack trace:
+#0 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(3597): PHPMailer\PHPMailer\PHPMailer::isValidHost('wheatonsfirm.co...')
+#1 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(2336): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1453): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /home/wheatonsfirm/public_html/admin/c2wad/inc/for-deposit.php(66): {closure}()
+#6 /home/wheatonsfirm/public_html/admin/c2wad/deposit.php(5): include('/home/wheatonsf...')
+#7 {main}
+  thrown in /home/wheatonsfirm/public_html/config/include/PHPMailer/PHPMailer.php on line 3631

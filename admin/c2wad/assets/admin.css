@@ -1,0 +1,34 @@
+body {
+	background-color: teal;
+}
+
+.main-header .navbar {
+	background-color: var(--dark);
+}
+
+.main-sidebar a {
+	color: white;
+}
+
+.main-header .sidebar-toggle {
+	color: white !important;
+	cursor: pointer;
+}
+
+.sidebar-menu > li {
+	margin: 2px 7px;
+    background-color: #418787;
+    height: 100%;
+}
+
+.sidebar-menu > li.menu-open {
+	background-color: #447878;
+}
+
+li.menu-open .treeview-menu > li > a:hover {
+	background-color: #43897c;
+}
+
+.main-header .sidebar-toggle {
+    padding: 0px;
+};
