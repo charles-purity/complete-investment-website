@@ -26,6 +26,8 @@
 
 			<!-- Main content -->
 			<section class="container-fluid">   
+
+</body>
          
          
 		
